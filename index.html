@@ -1,0 +1,1077 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Bootstraping!</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!-- For mobile -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <!-- For fixee size -->
+    <!-- <div class="container-fluid"> -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-4">.col-sm-4</div>
+        <div class="col-sm-4">.col-sm-4</div>
+        <div class="col-sm-4">.col-sm-4</div>
+      </div>
+      <h1>My First Bootstrap Page<small>Small bootstraps</small></h1>
+      <p>This is some text. And this is <mark>just a test</mark></p>
+      <hr>
+      <p>The abbr element is used to mark up an abbreviation or acronym:</p>
+      <p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+      <hr>
+      <blockquote>
+        <p>For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.</p>
+        <footer>From WWF's website</footer>
+      </blockquote>
+      <hr>
+      <p>To show the quote on the right use the class .blockquote-reverse:</p>
+      <blockquote class="blockquote-reverse">
+      <p>For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.</p>
+      <footer>From WWF's website</footer>
+      </blockquote>
+<hr>
+      <p>The dl element indicates a description list:</p>
+      <dl>
+        <dt>Coffee</dt>
+        <dd>- black hot drink</dd>
+        <dt>Milk</dt>
+        <dd>- white cold drink</dd>
+      </dl>
+<hr>
+     <h2>Code Snippets</h2>
+     <p>Inline snippets of code should be embedded in the code element:</p>
+     <p>The following HTML elements: <code>span</code>, <code>section</code>, and <code>div</code>
+     defines a section in a document.</p>
+<hr>
+         <h2>Keyboard Inputs</h2>
+    <p>To indicate input that is typically entered via the keyboard, use the kbd element:</p>
+    <p>Use <kbd>ctrl + p</kbd> to open the Print dialog box.</p>
+<hr>
+    <h2>Multiple Code Lines</h2>
+    <p>For multiple lines of code, use the pre element:</p>
+    <pre>
+    Text in a pre element
+    is displayed in a fixed-width
+    font, and it preserves
+    both      spaces and
+    line breaks.
+    </pre>
+<hr>
+      <h2>Contextual Colors</h2>
+      <p>Use the contextual classes to provide "meaning through colors":</p>
+      <p class="text-muted">This text is muted.</p>
+      <p class="text-primary">This text is important.</p>
+      <p class="text-success">This text indicates success.</p>
+      <p class="text-info">This text represents some information.</p>
+      <p class="text-warning">This text represents a warning.</p>
+      <p class="text-danger">This text represents danger.</p>
+<hr>
+      <h2>Contextual Backgrounds</h2>
+      <p>Use the contextual background classes to provide "meaning through colors":</p>
+      <p class="bg-primary">This text is important.</p>
+      <p class="bg-success">This text indicates success.</p>
+      <p class="bg-info">This text represents some information.</p>
+      <p class="bg-warning">This text represents a warning.</p>
+      <p class="bg-danger">This text represents danger.</p>
+<hr>
+<h2>Tables</h2>
+<!-- Responsive Tables
+The .table-responsive class creates a responsive table.
+The table will then scroll horizontally on small devices (under 768px).
+When viewing on anything larger than 768px wide, there is no difference:
+<div class="table-responsive">
+  <table class="table">
+    ...
+  </table> -->
+<hr>
+    <h2>Basic Table</h2>
+      <p>The .table class adds basic styling (light padding and only horizontal dividers) to a table:</p>
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Email</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>John</td>
+            <td>Doe</td>
+            <td>john@example.com</td>
+          </tr>
+          <tr>
+            <td>Mary</td>
+            <td>Moe</td>
+            <td>mary@example.com</td>
+          </tr>
+          <tr>
+            <td>July</td>
+            <td>Dooley</td>
+            <td>july@example.com</td>
+          </tr>
+        </tbody>
+      </table>
+<hr>
+    <h2>Striped Rows</h2>
+      <p>The .table-striped class adds zebra-stripes to a table:</p>
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Email</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>John</td>
+            <td>Doe</td>
+            <td>john@example.com</td>
+          </tr>
+          <tr>
+            <td>Mary</td>
+            <td>Moe</td>
+            <td>mary@example.com</td>
+          </tr>
+          <tr>
+            <td>July</td>
+            <td>Dooley</td>
+            <td>july@example.com</td>
+          </tr>
+        </tbody>
+      </table>
+<hr>
+    <h2>Bordered Table</h2>
+     <p>The .table-bordered class adds borders to a table:</p>
+     <table class="table table-bordered">
+       <thead>
+         <tr>
+           <th>Firstname</th>
+           <th>Lastname</th>
+           <th>Email</th>
+         </tr>
+       </thead>
+       <tbody>
+         <tr>
+           <td>John</td>
+           <td>Doe</td>
+           <td>john@example.com</td>
+         </tr>
+         <tr>
+           <td>Mary</td>
+           <td>Moe</td>
+           <td>mary@example.com</td>
+         </tr>
+         <tr>
+           <td>July</td>
+           <td>Dooley</td>
+           <td>july@example.com</td>
+         </tr>
+       </tbody>
+     </table>
+<hr>
+    <h2>Hover Rows</h2>
+      <p>The .table-hover class enables a hover state on table rows:</p>
+      <table class="table table-hover">
+        <thead>
+          <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Email</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>John</td>
+            <td>Doe</td>
+            <td>john@example.com</td>
+          </tr>
+          <tr>
+            <td>Mary</td>
+            <td>Moe</td>
+            <td>mary@example.com</td>
+          </tr>
+          <tr>
+            <td>July</td>
+            <td>Dooley</td>
+            <td>july@example.com</td>
+          </tr>
+        </tbody>
+      </table>
+<hr>
+      <h2>Condensed Table</h2>
+        <p>The .table-condensed class makes a table more compact by cutting cell padding in half:</p>
+        <table class="table table-condensed">
+          <thead>
+            <tr>
+              <th>Firstname</th>
+              <th>Lastname</th>
+              <th>Email</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>John</td>
+              <td>Doe</td>
+              <td>john@example.com</td>
+            </tr>
+            <tr>
+              <td>Mary</td>
+              <td>Moe</td>
+              <td>mary@example.com</td>
+            </tr>
+            <tr>
+              <td>July</td>
+              <td>Dooley</td>
+              <td>july@example.com</td>
+            </tr>
+          </tbody>
+        </table>
+<hr>
+      <h2>Contextual Classes</h2>
+        <p>Contextual classes can be used to color table rows or table cells. The classes that can be used are: .active, .success, .info, .warning, and .danger.</p>
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Firstname</th>
+              <th>Lastname</th>
+              <th>Email</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="success">
+              <td>John</td>
+              <td>Doe</td>
+              <td>john@example.com</td>
+            </tr>
+            <tr class="danger">
+              <td>Mary</td>
+              <td>Moe</td>
+              <td>mary@example.com</td>
+            </tr>
+            <tr class="info">
+              <td>July</td>
+              <td>Dooley</td>
+              <td>july@example.com</td>
+            </tr>
+          </tbody>
+        </table>
+<hr>
+      <h2>Images</h2>
+      <img src="images/legoMan.gif" class="img-rounded" alt="Lego man" width="304" height="236">
+      <img src="images/legoMan.gif" class="img-circle" alt="Lego man" width="304" height="236">
+      <img src="images/legoMan.gif" class="img-thumbnail" alt="Lego man" width="304" height="236">
+      <img src="images/legoMan.gif" class="img-responsive" alt="Lego man">
+<hr>
+      <h2>Image Galery</h2>
+            <div class="row">
+       <div class="col-md-4">
+         <a href="pulpitrock.jpg" class="thumbnail">
+           <p>Pulpit Rock: A famous tourist attraction in Forsand, Ryfylke, Norway.</p>
+           <img src="images/legoMan.gif" alt="Pulpit Rock" style="width:150px;height:150px">
+         </a>
+       </div>
+       <div class="col-md-4">
+         <a href="moustiers-sainte-marie.jpg" class="thumbnail">
+           <p>Moustiers-Sainte-Marie: Considered as one of the "most beautiful villages of France".</p>
+           <img src="images/fashionMakeup.jpg" alt="Moustiers Sainte Marie" style="width:150px;height:150px">
+         </a>
+       </div>
+       <div class="col-md-4">
+         <a href="cinqueterre.jpg" class="thumbnail">
+           <p>The Cinque Terre: A rugged portion of coast in the Liguria region of Italy.</p>
+           <img src="images/girl.jpg" alt="Cinque Terre" style="width:150px;height:150px">
+         </a>
+       </div>
+      </div>
+<hr>
+    <h2>Responsive Embeds</h2>
+    <p>Also let videos or slideshows scale properly on any device.</p>
+    <p>Classes can be applied directly to &lt;iframe&gt;, &lt;embed&gt;, &lt;video&gt;, and &lt;object&gt; elements.</p>
+    <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="http://www.youtube.com/embed/XGSy3_Czz8k">></iframe>
+    </div>
+<hr>
+<!-- 16:9 aspect ratio -->
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="http://www.youtube.com/embed/XGSy3_Czz8k"></iframe>
+</div>
+
+<!-- 4:3 aspect ratio -->
+<div class="embed-responsive embed-responsive-4by3">
+  <iframe class="embed-responsive-item" src="http://www.youtube.com/embed/XGSy3_Czz8k"></iframe>
+</div>
+<hr>
+  <h2>Using a Jumbotron</h2>
+  <p>
+    Inside a jumbotron you can put nearly any valid HTML, including other Bootstrap elements/classes.
+  </p>
+
+  <div class="container">
+    <div class="jumbotron">
+      <h1>Bootstrap Tutorial</h1>
+    <p>Bootstrap is the most popular HTML, CSS, and JS framework for developing
+    responsive, mobile-first projects on the web.</p>
+    <p>This is some text.</p>
+    <p>This is another text.</p>
+  </div>
+    </div>
+<hr>
+      <div class="page-header">
+        <h1>Example Page Header</h1>
+        <p>
+          A page header carries on a bottom line
+        </p>
+      </div>
+<hr>
+      <h2>Wells</h2>
+      <p>
+        Rounded box with gray bg.
+      </p>
+      <div class="well">Basic Well(Normal size)</div>
+      <div class="well well-sm">Small Well</div>
+      <div class="well well-lg">Large Well</div>
+<hr>
+      <h2>Alerts</h2>
+      <div class="alert alert-success">
+        <strong>Success!</strong> Indicates a successful or positive action.
+      </div>
+
+      <div class="alert alert-info">
+        <strong>Info!</strong> Indicates a neutral informative change or action.
+      </div>
+
+      <div class="alert alert-warning">
+        <strong>Warning!</strong> Indicates a warning that might need attention.
+      </div>
+
+      <div class="alert alert-danger">
+        <strong>Danger!</strong> Indicates a dangerous or potentially negative action.
+      </div>
+      <h2>Closing alerts</h2>
+      <div class="alert alert-success">
+      <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+      <strong>Success!</strong> Indicates a successful or positive action.
+      </div>
+      <div class="alert alert-success fade in">fade in alert alert-success</div>
+<hr>
+      <h2>Button Styles</h2>
+        <ul>
+          <li>.btn-default</li>
+          <li>.btn-primary</li>
+          <li>.btn-success</li>
+          <li>.btn-info</li>
+          <li>.btn-warning</li>
+          <li>.btn-danger</li>
+          <li>.btn-link</li>
+        </ul>
+      <button type="button" class="btn btn-default">Default</button>
+      <button type="button" class="btn btn-primary">Primary</button>
+      <button type="button" class="btn btn-success">Success</button>
+      <button type="button" class="btn btn-info">Info</button>
+      <button type="button" class="btn btn-warning">Warning</button>
+      <button type="button" class="btn btn-danger">Danger</button>
+      <button type="button" class="btn btn-link">Link</button>
+      <p>
+        he button classes can be used on an &lt;a&gt;, &lt;button&gt;, or &lt;input&gt; element:
+      </p>
+      <a href="#" class="btn btn-info" role="button">Link Button</a>
+      <button type="button" class="btn btn-info">Button</button>
+      <input type="button" class="btn btn-info" value="Input Button">
+      <input type="submit" class="btn btn-info" value="Submit Button">
+      <p>
+        Button sizes:
+      </p>
+      <ul>
+        <li>.btn-lg</li>
+        <li>.btn-md</li>
+        <li>.btn-sm</li>
+        <li>.btn-xs</li>
+      </ul>
+      <h3>Examples</h3>
+      <button type="button" class="btn btn-primary btn-lg">Large</button>
+      <button type="button" class="btn btn-primary btn-md">Medium</button>
+      <button type="button" class="btn btn-primary btn-sm">Small</button>
+      <button type="button" class="btn btn-primary btn-xs">XSmall</button>
+      <h3>Button Block Levels</h3>
+      <div class="container">
+      <h2>Block Level Buttons</h2>
+      <button type="button" class="btn btn-primary btn-block">Button 1</button>
+      <button type="button" class="btn btn-default btn-block">Button 2</button>
+
+      <h2>Large Block Level Buttons</h2>
+      <button type="button" class="btn btn-primary btn-lg btn-block">Button 1</button>
+      <button type="button" class="btn btn-default btn-lg btn-block">Button 2</button>
+
+      <h2>Small Block Level Buttons</h2>
+      <button type="button" class="btn btn-primary btn-sm btn-block">Button 1</button>
+      <button type="button" class="btn btn-default btn-sm btn-block">Button 2</button>
+      </div>
+      <h3>Active/Disabled Buttons</h3>
+      <p>
+        The class .active makes a button appear pressed, and the class .disabled makes a button unclickable:
+      </p>
+      <button type="button" class="btn btn-primary active">Active Primary</button>
+      <button type="button" class="btn btn-primary disabled">Disabled Primary</button>
+      <h3>Button Groups</h3>
+      <p>
+        Use a &lt;div&gt; element with class .btn-group to create a button group:
+      </p>
+      <div class="btn-group">
+      <button type="button" class="btn btn-primary">Apple</button>
+      <button type="button" class="btn btn-primary">Samsung</button>
+      <button type="button" class="btn btn-primary">Sony</button>
+      </div>
+      <h3>Vertical Button Groups</h3>
+      <p>
+        Use the class .btn-group-vertical to create a vertical button group:
+      </p>
+      <div class="btn-group-vertical">
+        <button type="button" class="btn btn-primary">Apple</button>
+        <button type="button" class="btn btn-primary">Samsung</button>
+        <button type="button" class="btn btn-primary">Sony</button>
+      </div>
+      <h3>Justified Button Groups</h3>
+      <p>
+        To span the entire width of the screen, use the .btn-group-justified class:
+      </p>
+      <p>
+        Example with &lt;a&gt; elements:
+      </p>
+      <div class="btn-group btn-group-justified">
+      <a href="#" class="btn btn-primary">Apple</a>
+      <a href="#" class="btn btn-primary">Samsung</a>
+      <a href="#" class="btn btn-primary">Sony</a>
+      </div>
+      <p>
+        Note: For &lt;button&gt; elements, you must wrap each button in a .btn-group class:
+      </p>
+      <div class="btn-group btn-group-justified">
+        <div class="btn-group">
+          <button type="button" class="btn btn-primary">Apple</button>
+        </div>
+        <div class="btn-group">
+          <button type="button" class="btn btn-primary">Samsung</button>
+        </div>
+        <div class="btn-group">
+          <button type="button" class="btn btn-primary">Sony</button>
+        </div>
+      </div>
+      <h3>Nesting Button Groups</h3>
+      <p>
+        Nest button groups to create dropdown menus:
+      </p>
+
+      <div class="btn-group">
+      <button type="button" class="btn btn-primary">Apple</button>
+      <button type="button" class="btn btn-primary">Apple</button>
+
+                  <div class="btn-group">
+                  <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                  Samgsuga <span class="caret"></span></button>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="#">Galaxys</a></li>
+                    <li><a href="#">SSS3</a></li>
+                  </ul>
+                  </div>
+
+                  <div class="btn-group">
+                  <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                  Sony <span class="caret"></span></button>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="#">Tablet</a></li>
+                    <li><a href="#">Smartphone</a></li>
+                    <li><a href="#">Laptop</a></li>
+                  </ul>
+                 </div>
+        </div>
+        <h3>Split Button Dropdowns</h3>
+        <div class="btn-group">
+        <button type="button" class="btn btn-primary">Sony</button>
+        <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+          <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu" role="menu">
+          <li><a href="#">Tablet</a></li>
+          <li><a href="#">Smartphone</a></li>
+        </ul>
+        </div>
+<hr>
+      <h2>Glyphicons</h2>
+      <p>
+        Bootstrap provides 260 glyphicons from the <a href="http://glyphicons.com/">Glyphicons </a>Halflings set.
+      </p>
+      <p>
+        A glyphicon is inserted with the following syntax:
+      </p>
+      <p>
+        <code>&lt;span class="glyphicon glyphicon-name"&gt;&lt;/span&gt;</code>
+      </p>
+      <p>
+        The name part in the syntax above must be replaced with the proper name of the glyphicon.
+      </p>
+      <p>
+        The following example shows different ways to use glyphicons:
+      </p>
+      <p>Envelope icon: <span class="glyphicon glyphicon-envelope"></span></p>
+        <p>Envelope icon as a link:
+          <a href="#"><span class="glyphicon glyphicon-envelope"></span></a>
+        </p>
+        <p>Search icon: <span class="glyphicon glyphicon-search"></span></p>
+        <p>Search icon on a button:
+          <button type="button" class="btn btn-default">
+            <span class="glyphicon glyphicon-search"></span> Search
+          </button>
+        </p>
+        <p>Search icon on a styled button:
+          <button type="button" class="btn btn-info">
+            <span class="glyphicon glyphicon-search"></span> Search
+          </button>
+        </p>
+        <p>Print icon: <span class="glyphicon glyphicon-print"></span></p>
+        <p>Print icon on a styled link button:
+          <a href="#" class="btn btn-success btn-lg">
+            <span class="glyphicon glyphicon-print"></span> Print
+          </a>
+        </p>
+<hr>
+      <h3>Badges and Labels</h3>
+      <p>
+        Use the .badge class within &lt;span&gt; elements to create badges:
+      </p>
+      <a href="#">News <span class="badge">5</span></a><br>
+      <a href="#">Comments <span class="badge">1210</span></a><br>
+      <a href="#">Updates <span class="badge">2</span></a><br>
+      <button type="button" class="btn btn-primary">Primary <span class="badge">7</span></button>
+      <p>
+        Labels are used to provide additional information about something:
+      </p>
+      Use the <code>.label</code> class,  followed by one of the six contextual
+      classes <code>.label-default, .label-primary, .label-success, .label-info,
+      .label-warning</code> or <code>.label-danger</code>, within a
+      <code>&lt;span&gt;</code> element to create a label:
+      <h1>Example <span class="label label-default">New</span></h1>
+      <h2>Example <span class="label label-default">New</span></h2>
+      <h3>Example <span class="label label-default">New</span></h3>
+      <h4>Example <span class="label label-default">New</span></h4>
+      <h5>Example <span class="label label-default">New</span></h5>
+      <h6>Example <span class="label label-default">New</span></h6>
+      <p>
+        The following example shows all contextual label classes:
+      </p>
+      <span class="label label-default">Default Label</span>
+      <span class="label label-primary">Primary Label</span>
+      <span class="label label-success">Success Label</span>
+      <span class="label label-info">Info Label</span>
+      <span class="label label-warning">Warning Label</span>
+      <span class="label label-danger">Danger Label</span>
+<hr>
+      <h2>Basic Progress Bar</h2>
+      <p>
+        To create a default progress bar, add a <code>.progress</code>
+        class to a <code>&lt;div&gt;</code> element:
+      </p>
+      <div class="progress">
+      <div class="progress-bar" role="progressbar" aria-valuenow="70"
+      aria-valuemin="0" aria-valuemax="100" style="width:70%">
+        <span class="sr-only">70% Complete</span>
+      </div>
+      </div>
+
+      <div class="progress">
+      <div class="progress-bar" role="progressbar" aria-valuenow="70"
+      aria-valuemin="0" aria-valuemax="100" style="width:70%">
+        70%
+      </div>
+      </div>
+      <div class="progress">
+      <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40"
+      aria-valuemin="0" aria-valuemax="100" style="width:40%">
+        40% Complete (success)
+      </div>
+      </div>
+
+      <div class="progress">
+        <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="50"
+        aria-valuemin="0" aria-valuemax="100" style="width:50%">
+          50% Complete (info)
+        </div>
+      </div>
+
+      <div class="progress">
+        <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60"
+        aria-valuemin="0" aria-valuemax="100" style="width:60%">
+          60% Complete (warning)
+        </div>
+      </div>
+
+      <div class="progress">
+        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="70"
+        aria-valuemin="0" aria-valuemax="100" style="width:70%">
+          70% Complete (danger)
+        </div>
+      </div>
+
+      <div class="progress">
+      <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar"
+      aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
+        40% Complete (success)
+      </div>
+      </div>
+
+      <div class="progress">
+        <div class="progress-bar progress-bar-info progress-bar-striped" role="progressbar"
+        aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:50%">
+          50% Complete (info)
+        </div>
+      </div>
+
+      <div class="progress">
+        <div class="progress-bar progress-bar-warning progress-bar-striped" role="progressbar"
+        aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:60%">
+          60% Complete (warning)
+        </div>
+      </div>
+
+      <div class="progress">
+        <div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar"
+        aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+          70% Complete (danger)
+        </div>
+      </div>
+
+      <div class="progress">
+      <div class="progress-bar progress-bar-striped active" role="progressbar"
+      aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
+        40%
+      </div>
+      </div>
+
+      <div class="progress">
+      <div class="progress-bar progress-bar-success" role="progressbar" style="width:40%">
+        Free Space
+      </div>
+      <div class="progress-bar progress-bar-warning" role="progressbar" style="width:10%">
+        Warning
+      </div>
+      <div class="progress-bar progress-bar-danger" role="progressbar" style="width:20%">
+        Danger
+      </div>
+      </div>
+<hr>
+      <h2>Pagination</h2>
+      <ul class="pagination">
+      <li><a href="#">1</a></li>
+      <li><a href="#">2</a></li>
+      <li><a href="#">3</a></li>
+      <li><a href="#">4</a></li>
+      <li><a href="#">5</a></li>
+      </ul>
+
+      <ul class="pagination">
+        <li><a href="#">1</a></li>
+        <li class="active"><a href="#">2</a></li>
+        <li><a href="#">3</a></li>
+        <li><a href="#">4</a></li>
+        <li><a href="#">5</a></li>
+      </ul>
+
+      <ul class="pagination">
+        <li><a href="#">1</a></li>
+        <li><a href="#">2</a></li>
+        <li><a href="#">3</a></li>
+        <li class="disabled"><a href="#">4</a></li>
+        <li><a href="#">5</a></li>
+      </ul>
+
+      <ul class="pagination pagination-lg">
+        <li><a href="#">1</a></li>
+        <li><a href="#">2</a></li>
+        <li><a href="#">3</a></li>
+        <li><a href="#">4</a></li>
+        <li><a href="#">5</a></li>
+      </ul>
+
+      <ul class="pagination pagination-sm">
+        <li><a href="#">1</a></li>
+        <li><a href="#">2</a></li>
+        <li><a href="#">3</a></li>
+        <li><a href="#">4</a></li>
+        <li><a href="#">5</a></li>
+      </ul>
+
+      <ul class="breadcrumb">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Private</a></li>
+        <li><a href="#">Pictures</a></li>
+        <li class="active">Vacation</li>
+      </ul>
+<hr>
+      <h2>Pager</h2>
+      <p>
+        To create previous/next buttons, add the .pager class to an <ul> element:
+      </p>
+      <ul class="pager">
+        <li><a href="#">Previous</a></li>
+        <li><a href="#">Next</a></li>
+      </ul>
+
+      <ul class="pager">
+        <li class="previous"><a href="#">Previous</a></li>
+        <li class="next"><a href="#">Next</a></li>
+      </ul>
+<hr>
+      <h2>List Groups</h2>
+      <p>
+        To create a basic list group, use an ul element with class
+        .list-group, and li elements with class .list-group-item:
+      </p>
+
+      <ul class="list-group">
+        <li class="list-group-item">First item</li>
+        <li class="list-group-item">Second item</li>
+        <li class="list-group-item">Third item</li>
+      </ul>
+
+      <h3>List Group With Badges</h3>
+      <ul class="list-group">
+      <li class="list-group-item">New <span class="badge">12</span></li>
+      <li class="list-group-item">Deleted <span class="badge">5</span></li>
+      <li class="list-group-item">Warnings <span class="badge">3</span></li>
+      </ul>
+      <h3>List Group With Linked Items</h3>
+      <p>
+        The items in a list group can also be hyperlinks.
+        This will add a grey background color on hover:
+      </p>
+      <p>
+        To create a list group with linked items, use
+        div instead of ul and a instead of li:
+      </p>
+      <div class="list-group">
+      <a href="#" class="list-group-item">First item</a>
+      <a href="#" class="list-group-item">Second item</a>
+      <a href="#" class="list-group-item">Third item</a>
+      </div>
+      <p>
+        Use the .active class to highlight the current item:
+      </p>
+      <div class="list-group">
+      <a href="#" class="list-group-item active">First item</a>
+      <a href="#" class="list-group-item">Second item</a>
+      <a href="#" class="list-group-item">Third item</a>
+      </div>
+      <p>
+        To disable an item, add the .disabled class:
+      </p>
+      <div class="list-group">
+        <a href="#" class="list-group-item disabled">First item</a>
+        <a href="#" class="list-group-item">Second item</a>
+        <a href="#" class="list-group-item">Third item</a>
+      </div>
+      <p>
+        The classes for coloring list-items are: .list-group-item-success,
+        list-group-item-info, list-group-item-warning, and .list-group-item-danger:
+      </p>
+      <ul class="list-group">
+      <li class="list-group-item list-group-item-success">First item</li>
+      <li class="list-group-item list-group-item-info">Second item</li>
+      <li class="list-group-item list-group-item-warning">Third item</li>
+      <li class="list-group-item list-group-item-danger">Fourth item</li>
+      </ul>
+      <p>
+        You can add nearly any HTML inside a list group item.
+      </p>
+      <p>
+        Bootstrap provides the classes .list-group-item-heading and
+        .list-group-item-text which can be used as follows:
+      </p>
+      <div class="list-group">
+      <a href="#" class="list-group-item active">
+        <h4 class="list-group-item-heading">First List Group Item Heading</h4>
+        <p class="list-group-item-text">List Group Item Text</p>
+      </a>
+      <a href="#" class="list-group-item">
+        <h4 class="list-group-item-heading">Second List Group Item Heading</h4>
+        <p class="list-group-item-text">List Group Item Text</p>
+      </a>
+      <a href="#" class="list-group-item">
+        <h4 class="list-group-item-heading">Third List Group Item Heading</h4>
+        <p class="list-group-item-text">List Group Item Text</p>
+      </a>
+      </div>
+<hr>
+<h2>Much more....</h2>
+<hr>
+      <h2>Media Objects</h2>
+      <!-- Left-aligned -->
+        <div class="media">
+          <div class="media-left">
+            <img src="images/legoMan.gif" class="media-object" style="width:60px">
+          </div>
+          <div class="media-body">
+            <h4 class="media-heading">John Doe</h4>
+            <p>Lorem ipsum...</p>
+          </div>
+        </div>
+
+        <!-- Right-aligned -->
+        <div class="media">
+          <div class="media-body">
+            <h4 class="media-heading">John Doe</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+          <div class="media-right">
+            <img src="images/girl.jpg" class="media-object" style="width:60px">
+          </div>
+        </div>
+<hr>
+
+        <h1>Carousel</h1>
+        <p>
+          The Carousel plugin is a component for cycling
+          through elements, like a carousel (slideshow).
+        </p>
+
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+          <li data-target="#myCarousel" data-slide-to="3"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <img src="images/land1.jpg" alt="Chania">
+          </div>
+
+          <div class="item">
+            <img src="images/land2.jpeg" alt="Chania">
+          </div>
+
+          <div class="item">
+            <img src="images/land3.jpeg" alt="Flower">
+          </div>
+
+          <div class="item">
+            <img src="images/land4.jpeg" alt="Flower">
+          </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
+      <h2>Captions to Slides</h2>
+
+      <div id="myCarousel2" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel2" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel2" data-slide-to="1"></li>
+        <li data-target="#myCarousel2" data-slide-to="2"></li>
+        <li data-target="#myCarousel2" data-slide-to="3"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img src="images/land1.jpg" alt="Landscape 1">
+          <div class="carousel-caption">
+            <h3>Chania</h3>
+            <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="images/land2.jpeg" alt="Landscape 2">
+          <div class="carousel-caption">
+            <h3>Chania</h3>
+            <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="images/land3.jpeg" alt="Landscape 3">
+          <div class="carousel-caption">
+            <h3>Flowers</h3>
+            <p>Beatiful flowers in Kolymbari, Crete.</p>
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="images/land4.jpeg" alt="Landscape 4">
+          <div class="carousel-caption">
+            <h3>Flowers</h3>
+            <p>Beatiful flowers in Kolymbari, Crete.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel2" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel2" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+      </div>
+<hr>
+      <h2>The Modal Plugin</h2>
+        <p>
+          The Modal plugin is a dialog box/popup window that is displayed on
+          top of the current page:
+        </p>
+        <!-- Trigger the modal with a button -->
+    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">
+    Open Modal</button>
+
+        <!-- Modal -->
+        <div id="myModal" class="modal fade" role="dialog">
+          <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Modal Header</h4>
+              </div>
+
+              <div class="modal-body">
+                <p>Some text in the modal.</p>
+              </div>
+
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+<hr>
+        <h2>Tooltip Plugin</h2>
+            <p>
+              The Tooltip plugin is small pop-up box that appears when the
+              user moves the mouse pointer over an element:
+            </p>
+            <p>
+              To create a tooltip, add the data-toggle="tooltip" attribute to an element.
+            </p>
+            <p>
+              Use the title attribute to specify the text that should be displayed inside the tooltip:
+            </p>
+<a href="#" data-placement="auto" data-toggle="tooltip" title="Hooray! this thing only works with JQuery">Hover over me</a>
+<a href="#" data-placement="auto" data-toggle="tooltip" title="Hooray! this thing only works with JQuery">Hover over me</a>
+<a href="#" data-placement="auto" data-toggle="tooltip" title="Hooray! this thing only works with JQuery">Hover over me</a>
+<a href="#" data-placement="auto" data-toggle="tooltip" title="Hooray! this thing only works with JQuery">Hover over me</a>
+
+            <script>
+            $(document).ready(function(){
+                $('[data-toggle="tooltip"]').tooltip();
+            });
+            </script>
+<hr>
+          <h2>Popover Plugin</h2>
+          <p>
+            The Popover plugin is similar to tooltips; it is a pop-up box that appears when
+            the user clicks on an element. The difference is that the popover can
+            contain much more content.
+          </p>
+
+    <a href="#" data-toggle="popover" title="Popover Header" data-content="Some content inside the popover">
+    Toggle popover</a>
+        <script>
+    $(document).ready(function(){
+        $('[data-toggle="popover"]').popover();
+    });
+    </script>
+      <h3>Closing Popovers</h3>
+      <p>
+        By clicking outside of element:
+      </p>
+<a href="#" title="Dismissible popover" data-toggle="popover" data-trigger="focus" data-content="Click anywhere in the document to close this popover">Click me</a>
+      <p>
+        By hover:
+      </p>
+      <a href="#" title="Header" data-toggle="popover" data-trigger="hover" data-content="Some content">Hover over me</a>
+<hr>
+    <h2>Scrollspy Plugin (Advanced)</h2>
+      <p>
+        The Scrollspy plugin is used to automatically update
+        links in a navigation list based on scroll position.
+      </p>
+      <p>
+        See <a href="scrollspy.html" target="_blank">This page.</a>
+      </p>
+      <p>
+        See <a href="scrollspy_vertical.html" target="_blank">Scrollspy Vertical Menu.</a>
+      </p>
+<hr>
+      <h2>Affix Plugin</h2>
+      <p>
+        The Affix plugin allows an element to become affixed (locked)
+        to an area on the page. This is often used with navigation
+        menus or social icon buttons, to make them "stick" at a
+        specific area while scrolling up and down the page.
+      </p>
+      <p>
+      The plugin toggles this behavior on and off (changes the value of
+       CSS position from static to fixed), depending on scroll position.
+      </p>
+      <p>
+        <a href="affix.html" target="_blank">Bootstrap Affix Example</a>
+      </p>
+      <p>
+        <a href="affix_vertical.html" target="_blank">Bootstrap Affix Vertical Example</a>
+      </p>
+      <h3>Scrollspy &amp; Affix</h3>
+      <p>
+        <a href="scrollspy_and_affix.html" target="_blank">Scrollspy and Affix</a>
+      </p>
+      <p>
+        <a href="scrollspy_and_affix_vertical.html" target="_blank">Scrollspy and Affix Vertical</a>
+      </p>
+<hr>
+      <h1>Grid System</h1>
+      <p>
+        <a href="grid.html" target="_blank">See examples.</a>
+      </p>
+<hr>
+      <h2>Bootstrap Templates</h2>
+      <p>
+        SOME GREAT AND USEFULL TEMPLATES:
+      </p>
+      <a href="http://www.w3schools.com/bootstrap/bootstrap_templates.asp" target="_blank">
+        W3Schools' Bootstrap Templates</a>
+
+<!-- LAST 3 TAGS -->
+</div>
+  </body>
+</html>
